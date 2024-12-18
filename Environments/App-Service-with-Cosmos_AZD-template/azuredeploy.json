@@ -11,11 +11,9 @@
   "parameters": {
     "repoUrl": {
       "type": "string",
-      "defaultValue":"https://github.com/azure-samples/todo-java-mongo",
+      "defaultValue":"https://github.com/frattinger/azure-app-templates/tree/main/dotnet-core-webapi-cosmosdb",
       "allowedValues": [
-          "https://github.com/azure-samples/todo-java-mongo",
-          "https://github.com/azure-samples/todo-nodejs-mongo",
-          "https://github.com/azure-samples/todo-python-mongo"
+          "https://github.com/frattinger/azure-app-templates/tree/main/dotnet-core-webapi-cosmosdb"
       ],
       "metadata": {
         "description": "URL of the GitHub repository containing the application code"
@@ -24,12 +22,10 @@
     "runtimeType": {
       "type": "string",
       "allowedValues": [
-        "python",
-        "nodejs",
-        "java"
+        "dotnetcore"
     ],
       "metadata": {
-        "description": "Runtime Type of the App Service runtime,eg python, nodejs or java."
+        "description": "Runtime Type of the App Service runtime,eg dotnetcore, python, nodejs or java."
       }
     },
     "location": {
